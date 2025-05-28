@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colors</title>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Random colors</h1>
+        <button id="colorbutton">Generate color</button>
+        <p id="colorcode">code : </p>
+    </div>
+    </center>
+    <style>
+        .container{
+            height: 30%;
+            width: 25%;
+            background-color: azure;
+            border-radius: 5%;
+            margin-top: 10%;
+            border: 5px solid black;
+            
+        body{
+            background-color: springgreen;
+        }
+
+        }
+    
+    </style>
+    <script>
+        function getcolor()
+        {
+            const letter="0123456789ABCDEF";
+            let color="#";
+            for(let i=0; i<6 ;i++){
+                color += letter [Math.floor(Math.random()*16)]
+            }
+            return color;
+        }
+        document.getElementById("colorbutton").addEventListener("click",function(){
+            const newcolor= getcolor();
+            document.body.style.backgroundColor=newcolor;
+            document.getElementById("colorcode").textContent='color is' +newcolor;
+        })
+    </script>
+    
+</body>
+</html>

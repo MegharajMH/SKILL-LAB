@@ -1,0 +1,28 @@
+h1{
+    background-color: rgb(223, 159, 243);
+    height: 100px;
+    width: 300px;
+    margin: 10%;
+    padding: 1%;
+    border-style: double;
+}
+h2{
+    background-color: rgb(205, 135, 223);
+    color: rgb(238, 244, 255);
+    height: 250px;
+    width: 360px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-style: double;
+}
+h4{
+    background-color: rgb(223, 135, 235);
+    height: 40px;
+    width: 100px;
+    border-style: double;
+}
+body{
+    background-color: whitesmoke;
+}

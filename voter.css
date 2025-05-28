@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    background-color: whitesmoke;
+    padding: 1%;
+    margin: 1%;
+    border-color: blue;
+    border-top-color: brown;
+    }
+body{
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    background-image: url(download.jpg);
+    padding: 5%;
+    margin: 1%;
+    border-style: ridge;
+    justify-items: center;
+}

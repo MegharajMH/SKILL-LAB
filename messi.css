@@ -1,0 +1,19 @@
+div1{
+    width: 10px;
+    height: 40px;
+}
+.img-thumbnail{
+    border-radius: 40%;
+}
+.card-img-top{
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.flex-shrink-0{
+    border-radius: 40%;
+
+}
+#div{
+    border-radius: 40%;
+}

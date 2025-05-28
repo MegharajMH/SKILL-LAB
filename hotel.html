@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Prajwal</title>
+    <link rel="stylesheet" href="hotel.css">
+
+</head>
+<body>
+    <center>
+    <h1>WELCOME TO HOTEL PRAJWAL</h1>
+    <h4>Menue</h4>
+    <h2><label for="">idli Rs.10</label>
+    <input type="number" name="" id="idli"><br>
+    <label for="">Dosa Rs.40</label>
+    <input type="numbers" name="" id="dosa"><br>
+    <label for="">Egg Rice Rs.50</label>
+    <input type="numbers" name="" id="egg"><br>
+    <label for="">Biriyani Rs.100</label>
+    <input type="numbers" name="" id="biriyani"><br>
+    <label for="">Mudde Rs.60</label>
+    <input type="numbers" name="" id="mudde"><br>
+    <label for="">Anna sambar Rs.30</label>
+    <input type="numbers" name="" id="anna"><br>
+    <button onclick="bill()">Submit</button>
+     </h2>
+    </center>
+
+
+    <script>
+        function bill(){
+            var idli=document.getElementById("idli").value;
+             var dosa=document.getElementById("dosa").value;
+              var egg=document.getElementById("egg").value;
+               var biriyani=document.getElementById("biriyani").value;
+                var mudde=document.getElementById("mudde").value;
+                 var anna=document.getElementById("anna").value;
+                var total=idli*10+dosa*40+egg*50+biriyani*100+mudde*60+anna*30;
+                alert(total);
+        }
+    </script>
+</body>
+</html>

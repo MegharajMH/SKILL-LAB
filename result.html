@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="res.css">
+</head>
+<body>
+    <center>
+    <h1>Result Predictor</h1>
+    <h3>
+    <label for="">Enter your name</label>
+    <input type="text" placeholder="Enter your name" id="uname">
+    <button onclick="per()">Submit</button>
+    </h3>
+    <p id="res"></p>
+    </center>
+    <script>
+        function per()
+        {
+            var uname=document.getElementById("uname").value;
+            var per=Math.random()*100;
+            var res=document.getElementById("res");
+            res.innerHTML="The result is :"+per;
+        }
+    </script>
+</body>
+</html>
